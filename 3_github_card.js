@@ -36,8 +36,6 @@ const CardList = (props) => {
     </div>
   );
 }
-
 // spread operator (...) to use whole array as argument of map function
 
-
-ReactDOM.render(<CardList cards={data}/>, mountNode);  
+ReactDOM.render (<CardList cards = {data} />, mountNode);  
